@@ -12,9 +12,9 @@ We use git and GitHub for version control of our source code.
 Git Flow
 --------
 
-> If you're new to git flow, this is [a good article to start from](http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/).
-
 We use [git flow](https://github.com/nvie/gitflow) for managing our branches.  It's pretty simple once you get used to it.  We work from a branch called 'develop' and only merge changes in to master once they're ready for a new release.  We stick with the standard git flow branch names and have no restriction on feature names as yet, as long as they make sense to other readers.
+
+> If you're new to git flow, this is [a good article to start from](http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/).
 
 Here's a quick example of how to work on a new feature of a new project using git flow:
 
@@ -50,9 +50,9 @@ Git flow takes care of things like removal of branches when they're no longer ne
 Commit Often
 ------------
 
-Since you're on your own branch, don't be afraid to commit as you go.  It won't hurt anyone and your own commit messages can help you work out where you left off last time you worked on this feature.
+Since you're on your own branch, don't be afraid to commit as you go.  It won't hurt anyone and your own commit messages can help you work out where you left off last time you worked on this feature.  You can always tidy up a bunch of commits, squashing them with an interactive rebase to turn them into single, meaningful commits.
 
-Push your branch up to github if you want to save it for working elsewhere or for another developer to take a look at.  Just don't forget to remove it once it has been merged!
+Push your branch up to github if you want to save it for working elsewhere or for another developer to take a look at.  Just don't forget to remove it once it has been merged, as that won't be done for you!
 
 
 Public vs Private
@@ -64,7 +64,7 @@ When you're creating a new repository, why not let it go public?  If it doesn't 
 Don't Check In Passwords!
 ------------------------
 
-We'll come back on to [security](/pages/security.html) later but for now just know that you shouldn't commit anything that should be considered secret.  That includes passwords, api keys and anything else that might be sensitive information.
+We'll come back on to [security](/pages/security.html) later but for now just know that you shouldn't commit anything that should be considered secret.  That includes passwords, api keys and anything else that might be sensitive information.  It's not good enough to remove secrets after the fact either - git is designed to keep all changes historically and it's very difficult in practise to remove secrets from past commits.
 
 
 
