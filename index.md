@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How we do things here at Adaptive Lab
+title: About This Guide
 tagline:
 ---
 {% include JB/setup %}

@@ -5,10 +5,17 @@ description: ""
 ---
 {% include JB/setup %}
 
-Test Everything!
-----------------
+Every new bit of code you write should be proved to be doing the job you wanted it to in some sort of repeatable, automated test.  If it's not tested then it won't go in!  Before finishing any new feature, make sure to run the full test suite so you can be sure nothing you've done has broken any existing functionality.
 
-Every new bit of code you write should be proved to be doing the job you wanted it to in some sort of repeatable, automated test.  If it's not tested then it doesn't go in.
+
+
+Avoid Brittleness
+-----------------
+
+Tests are 'brittle' when
+
+Mocking
+-------
 
 
 
@@ -25,21 +32,13 @@ It doesn't matter if there are no tests or if it's not set up right.  As soon as
 
 ### How to add a new repo or branch to Jenkins
 
-TODO: Explain how to add to the jenkins templates
-TODO: Explain jenkins.sh
+* TODO: Explain how to add to the jenkins templates
+* TODO: Explain jenkins.sh
 
 ### Add your feature branch if development is long-running
 
 For big features, it can help for Jenkins to track the feature branch and show the status of all its tests.  It's easy to do and provides visibility to everyone immediately.
 
-
-
-Top-Down or Bottoms-Up?
------------------------
-
-
-Mocking
---------
 
 
 
