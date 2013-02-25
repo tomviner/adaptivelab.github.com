@@ -5,21 +5,7 @@ description: ""
 ---
 {% include JB/setup %}
 
-When working as part of a team, it makes sense to leverage that combined knowledge.  The sum of the whole is worth a lot more than the individual parts.  Unless you happen to be a super-awesome individual and the team is just slowing you down.  The team should feel responsible for the quality of the work that it produces and the combined experience can be used to help ensure good quality.  Here's a few guidelines to illustrate.
-
-
-There are no stupid questions!
----------------------------
-
-When given a new challenge to solve and there are bits you're not clear on and are uncertain of, then pipe up early.  No one's going to mock you for anything you might ask.  Some people know some things; other people know other things.  No one knows everything, especially when you're dealing with domain-specific tasks that come with a history and a language created before you even came to work on it.
-
-
-Make sure you know what you're building
-------------------------------------
-
-Even if you think you know exactly what you're about to attempt when grabbing a new task off the pile, it's always a good idea to double-check with whoever created the task in the first place that you'll be delivering what's expected.  If deliverables are clearly defined, they indicate to you exactly what it is you'll be demoing to the team at the end of a sprint, which means there will be no last-minute rush to change it all around because you forgot to add this or that.
-
-If a task doesn't put a specific deliverable in your mind, don't be afraid to ask for clarification.
+We all want to produce work of good quality.  The whole reason for this guide is to establish those best practices that help us achieve a level of quality at all aspects of design, development and deployment of our products.  Here we discuss at a high level some of those topics that deal specifically with ensuring the work we produce is of good quality, referencing the other sections of this guide that focus in on the details.
 
 
 Discuss your approach before you start coding
@@ -31,7 +17,7 @@ This isn't necessary all the time, but it can be really helpful for you to seek 
 Testing
 -------
 
-We've covered the ins and outs of testing in more detail elsewhere, but on the subject of quality assurance here's how unit tests, integration tests and the like can play a huge part:
+We've covered [the ins and outs of testing](/pages/testing.html) in more detail elsewhere, but on the subject of quality assurance here's how unit tests, integration tests and the like can play a huge part:
 
 ### Avoiding Regression Errors
 
